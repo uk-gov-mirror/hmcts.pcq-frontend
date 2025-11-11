@@ -32,7 +32,7 @@ const supportedBrowsers = {
   },
 
   windows11_edge: {
-    browserName: 'microsoftedge',
+    browserName: 'microsoftEdge',
     platformName: 'Windows 11',
     browserVersion: 'latest',
     'sauce:options': {
