@@ -66,8 +66,8 @@ const setupConfig = {
         }
     },
     multiple: {
-        microsoftedge: {
-            browsers: getBrowserConfig('microsoftedge')
+        microsoftEdge: {
+            browsers: getBrowserConfig('microsoftEdge')
         },
         chrome: {
             browsers: getBrowserConfig('chrome')
