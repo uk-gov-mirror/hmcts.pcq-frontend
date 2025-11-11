@@ -7,7 +7,8 @@ export IGNORE_SESSION_VALIDATION=true
 
 EXIT_STATUS=0
 BROWSER_GROUP=microsoftEdge yarn test-crossbrowser-e2e || EXIT_STATUS=$?
-BROWSER_GROUP=chrome yarn test-crossbrowser-e2e || EXIT_STATUS=$?
+BROWSER_GROUP=windows11_chrome yarn test-crossbrowser-e2e || EXIT_STATUS=$?
+BROWSER_GROUP=macos_10_15_chrome yarn test-crossbrowser-e2e || EXIT_STATUS=$?
 BROWSER_GROUP=firefox yarn test-crossbrowser-e2e || EXIT_STATUS=$?
 BROWSER_GROUP=safari yarn test-crossbrowser-e2e || EXIT_STATUS=$?
 echo EXIT_STATUS: $EXIT_STATUS
