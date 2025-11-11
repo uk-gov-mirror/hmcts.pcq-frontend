@@ -66,8 +66,8 @@ const setupConfig = {
         }
     },
     multiple: {
-        microsoftEdge: {
-            browsers: getBrowserConfig('microsoftEdge')
+        windows11_edge: {
+            browsers: getBrowserConfig('windows11_edge')
         },
         windows11_chrome: {
             browsers: getBrowserConfig('windows11_chrome')
@@ -75,11 +75,14 @@ const setupConfig = {
         macos_10_15_chrome: {
             browsers: getBrowserConfig('macos_10_15_chrome')
         },
-        firefox: {
-            browsers: getBrowserConfig('firefox')
+        ios_safari_18: {
+            browsers: getBrowserConfig('ios_safari_18')
         },
-        safari: {
-            browsers: getBrowserConfig('safari')
+        ios_safari_18: {
+            browsers: getBrowserConfig('ios_safari_18')
+        },
+        android_15_chrome_mobile: {
+            browsers: getBrowserConfig('android_15_chrome_mobile')
         }
     }
 };
