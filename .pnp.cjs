@@ -65,7 +65,7 @@ const RAW_RUNTIME_STATE =
           ["helmet", "npm:8.3.0"],\
           ["i18next", "virtual:4988fc10d27710cdb3e57dc0e556fd1d3b78e0a4d35d5725b1ddaa965a40cf5f6ea242a6d7b282a5264da04a4e9f3a153d26f33d87257cd2a848cb2105ced64c#npm:26.3.6"],\
           ["immutable", "npm:5.1.9"],\
-          ["ioredis", "npm:5.11.1"],\
+          ["ioredis", "npm:6.0.0"],\
           ["js-yaml", "npm:5.2.3"],\
           ["jsonwebtoken", "npm:9.0.3"],\
           ["lodash", "npm:4.18.1"],\
@@ -2282,10 +2282,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@ioredis/commands", [\
-      ["npm:1.10.0", {\
-        "packageLocation": "./.yarn/cache/@ioredis-commands-npm-1.10.0-0ecb8bcb37-2b0322f99d.zip/node_modules/@ioredis/commands/",\
+      ["npm:2.0.0", {\
+        "packageLocation": "./.yarn/cache/@ioredis-commands-npm-2.0.0-d3a65b0c9e-03c0e0735a.zip/node_modules/@ioredis/commands/",\
         "packageDependencies": [\
-          ["@ioredis/commands", "npm:1.10.0"]\
+          ["@ioredis/commands", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -12326,16 +12326,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ioredis", [\
-      ["npm:5.11.1", {\
-        "packageLocation": "./.yarn/cache/ioredis-npm-5.11.1-0ce2bc576f-f27653075b.zip/node_modules/ioredis/",\
+      ["npm:6.0.0", {\
+        "packageLocation": "./.yarn/cache/ioredis-npm-6.0.0-ca28410308-afd383b034.zip/node_modules/ioredis/",\
         "packageDependencies": [\
-          ["@ioredis/commands", "npm:1.10.0"],\
+          ["@ioredis/commands", "npm:2.0.0"],\
           ["cluster-key-slot", "npm:1.1.1"],\
           ["debug", "virtual:643ed7cc338bcf145a82d8b05b3bef6bcf150ca545df386225596f10ce53cc90b88b3ca83e348ade1ccea5f3f8e76c92d2f0e2ba544da60d40aff9921c56872d#npm:4.4.3"],\
           ["denque", "npm:2.1.0"],\
-          ["ioredis", "npm:5.11.1"],\
+          ["ioredis", "npm:6.0.0"],\
           ["redis-errors", "npm:1.2.0"],\
-          ["redis-parser", "npm:3.0.0"],\
           ["standard-as-callback", "npm:2.1.0"]\
         ],\
         "linkType": "HARD"\
@@ -16261,7 +16260,7 @@ const RAW_RUNTIME_STATE =
           ["helmet", "npm:8.3.0"],\
           ["i18next", "virtual:4988fc10d27710cdb3e57dc0e556fd1d3b78e0a4d35d5725b1ddaa965a40cf5f6ea242a6d7b282a5264da04a4e9f3a153d26f33d87257cd2a848cb2105ced64c#npm:26.3.6"],\
           ["immutable", "npm:5.1.9"],\
-          ["ioredis", "npm:5.11.1"],\
+          ["ioredis", "npm:6.0.0"],\
           ["js-yaml", "npm:5.2.3"],\
           ["jsonwebtoken", "npm:9.0.3"],\
           ["lodash", "npm:4.18.1"],\
@@ -16714,16 +16713,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/redis-errors-npm-1.2.0-a81fd9b0f1-001c11f63d.zip/node_modules/redis-errors/",\
         "packageDependencies": [\
           ["redis-errors", "npm:1.2.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["redis-parser", [\
-      ["npm:3.0.0", {\
-        "packageLocation": "./.yarn/cache/redis-parser-npm-3.0.0-7ebe40abcb-b10846844b.zip/node_modules/redis-parser/",\
-        "packageDependencies": [\
-          ["redis-errors", "npm:1.2.0"],\
-          ["redis-parser", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
